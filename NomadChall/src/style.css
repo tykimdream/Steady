@@ -4,12 +4,7 @@ body {
     color: rgba(245, 245, 245, 0.616);
     padding:1%;
   }
-#welcome{
-  font-size: 80px;
-  font-weight: bold;
-  padding-bottom:5%;
-  padding-top:1%;
-}
+
 .left-box{
   float: left;
 }
@@ -18,7 +13,29 @@ body {
   float:right;
 }
 
+#welcome{
+  font-size: 70px;
+  font-weight: bold;
+  padding-bottom:5%;
+  padding-top:1%;
+}
+
 #weather{
   font-size:20px;
   font-weight: bold;
+}
+
+#quote{
+  font-size:20px;
+  font-weight: bold;
+}
+
+#author{
+  color:black;
+}
+
+#img{
+  display: flex;
+  height: 500px;
+  width: 500px;
 }
