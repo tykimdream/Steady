@@ -11,6 +11,7 @@ body {
 
 .right-box{
   float:right;
+  text-align: right;
 }
 
 #welcome{
@@ -38,4 +39,8 @@ body {
   display: flex;
   height: 50vh;
   width: 50vw;
+}
+footer{
+  font-size: 20px;
+  font-weight: bold;
 }
