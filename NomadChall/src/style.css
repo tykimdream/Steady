@@ -5,6 +5,10 @@ body {
     padding:1%;
   }
 
+.hidden{
+  display: none;
+}
+
 .left-box{
   float: left;
 }
