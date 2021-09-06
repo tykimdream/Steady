@@ -1,5 +1,12 @@
+body {
+    padding: 2%;
+}
+
 button{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10%;
+    height: auto;
 }
 
 #container{
