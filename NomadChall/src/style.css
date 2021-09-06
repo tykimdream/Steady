@@ -1,30 +1,32 @@
-body {
-    font-family: sans-serif;
-    background-color: teal;
-    color: rgba(245, 245, 245, 0.616);
-    padding:1%;
-  }
-  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|ZCOOL+QingKe+HuangYou');
 
-  * {
-    margin:0;
-    padding:0;
-    color:#000;
-    box-sizing: border-box;
-  }
-  
-  .fn-font {
-    font-family: 'Noto Sans KR', sans-serif;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: teal;
+  color: rgba(245, 245, 245, 0.616);
+  padding:1%;
+}
+.fn-font {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+header{
+  width:100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  color: black;
+}
+ul {
+  list-style: none;
+}
   a {
-    text-decoration: none;
-    outline: none;
-  }
+  text-decoration: none;
+  outline: none;
+}
 .hidden{
   display: none;
 }
