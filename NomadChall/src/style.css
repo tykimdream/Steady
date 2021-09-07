@@ -31,15 +31,45 @@ header ul{
   margin: 0px;
   padding: 0px;
   list-style: none;
-  border: 1px black solid;
 }
 header ul li{
   float: left;
+  position: relative;
+}
+header ul li ul{
+  position:absolute;
+  top:66px;
+  right:0px;
+  width: 150px;
+  display: none;
+}
+header ul li:hover ul{
+  display: block;
+}
+header ul li ul li{
+  width: 100%;
+  text-align: center;
+}
+header ul li ul li a{
+  padding : 10px;
+  background-color: white;
+  color:#444
+}
+header ul li ul li a.logout{
+  color:red
+}
+header ul li ul li a:hover{
+  background-color: #d5d6d6;
 }
 header ul li a{
   display: block;
   padding:21px;
   font-size: 1.1em;
+  text-decoration: none;
+}
+header ul li a:hover{
+  background-color: #023b3d;
+  transition: 0.5s;
 }
 
 header .menu-toggle{
@@ -62,10 +92,6 @@ footer{
   display: flex;
 }
 
-  a {
-  text-decoration: none;
-  outline: none;
-}
 .hidden{
   display: none;
 }

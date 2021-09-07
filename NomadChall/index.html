@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog</title>
     <link rel = "stylesheet" href = "src/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
 </head>
 <body>
     <header>
@@ -14,15 +18,19 @@
         </div>
         <i class = "fa fa-bars menu-toggle"></i>
             <ul class = "nav">
-                <li><a id ="temp" class = "weather"></a></li>
+                <li><a id ="temp" class = "weather" href="https://weather.com/weather/today/l/36.61,127.29?par=google"></a></li>
                 <li><a href="http://naver.com">naver</a></li> 
                 <!-- <li><h2><div id ="city" class = "weather"></div></h2></li> -->
                 <li><a href="#">Sign in</a></li>
                 <li>
-                    <a href="#">AWA ME</a>
+                    <a href="#">
+                        <i class = "fa fa-user"></i>
+                        AWA ME
+                        <i class = "fa fa-chevron-down"></i>
+                    </a>
                     <ul>
                         <li><a href="#">Dashboard</a></li>
-                        <li><a href="">Lgout</a></li>
+                        <li><a href="" class = "logout">Logout</a></li>
                     </ul>
                 </li>
             </ul>
