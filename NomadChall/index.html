@@ -9,18 +9,23 @@
 </head>
 <body>
     <header>
-        <h1>2021 Vanila Js chall</h1>
-        <nav>
-            <ul>
+        <div class = "logo">
+            <h1 class = "logo-text"><span>2021 Vanila </span>Js Chall</h1>
+        </div>
+        <i class = "fa fa-bars menu-toggle"></i>
+            <ul class = "nav">
+                <li><a id ="temp" class = "weather"></a></li>
+                <li><a href="http://naver.com">naver</a></li> 
+                <!-- <li><h2><div id ="city" class = "weather"></div></h2></li> -->
+                <li><a href="#">Sign in</a></li>
                 <li>
-                    <div id = "weather">
-                    <div></div>
-                    <div></div>
-                </div>
-            </li>
-            <li><div><h2>profile</h2></div></li>
+                    <a href="#">AWA ME</a>
+                    <ul>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="">Lgout</a></li>
+                    </ul>
+                </li>
             </ul>
-        </nav>
         
         <div id = "weather" class  = "right-box">
             <div></div>
@@ -52,7 +57,11 @@
     <div id = "img"></div>
 
     <footer>
+        <ul>
+            <li><div>개발자 : 김지환</div></li>
+        </ul>>
         <div id = "timer" class = "right-box"></div>
+        <div></div>
     </footer>
 </body>
 <script src="src/timer.js"></script>
