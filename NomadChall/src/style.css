@@ -16,15 +16,13 @@ header *{
 header .logo{
   float: left;
   height: inherit;
-  margin-left: 2em;
+  margin-left: 1.5em;
 }
 header .logo-text{
   margin :9px;
 }
-
 header .logo-text span{
   color: #2be2e9;
-
 }
 header ul{
   float:right;
@@ -48,7 +46,7 @@ header ul li:hover ul{
 }
 header ul li ul li{
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
 }
 header ul li ul li a{
   padding : 10px;
@@ -76,25 +74,53 @@ header .menu-toggle{
   display: none;
 }
 
-
-
-
-footer{
-  width: 100%;
-  height: 10px;
-  padding-top: 1%;
-  background-color: rgba(0, 128, 128, 0.212);
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
+/* Media Query */
+@media only screen and (max-width:1000px){
+  header{
+    position :relative;
+  }
+  header ul{
+    width: 100%;
+    background-color: #0E94A0;
+    max-height: 0px;
+    /* border: red 1px solid ; */
+    overflow: hidden;
+  }
+  header ul li{
+    width:100%;
+  }
+  header ul li ul{
+    position :static;
+    display: block;
+    width:100%;
+  }
+  header ul li ul li a{
+    padding:10px;
+    background-color: #0E94A0;
+    color:white;
+    padding-left: 50px;
+  }
+  header ul li ul a.logout{
+    color:red
+  }
+  header .menu-toggle{
+    display: block;
+    position : absolute;
+    right:20px;
+    top:20px;
+    font-size:1.9em;
+    /* border: red 1px solid; */
+  }
+  header .logo{
+    margin-left: 0.5em;
+  }
 }
 
-.hidden{
-  display: none;
-}
+
+
+
+
+
 
 .left-box{
   float: left;
