@@ -6,6 +6,7 @@ body {
   padding:0px;
   margin: 0px;
 }
+
 header{
   background-color: #008489;
   height: 66px;
@@ -76,11 +77,28 @@ header .menu-toggle{
 
 /* Post Slider */
 .post-slider{
+  position:relative;
   border: 1px red solid;
 }
 .post-slider .slider-title{
   text-align: center;
   margin: 30px quto;
+}
+.post-slider .next{
+  position: absolute;
+  top:50%;
+  right:30px;
+  font-size :2em;
+  color: #2be2e9;
+  cursor: pointer;
+}
+.post-slider .prev{
+  position: absolute;
+  top:50%;
+  left:30px;
+  font-size :2em;
+  color: #2be2e9;
+  cursor: pointer;
 }
 .post-slider .post-wrapper{
   width:90%;
