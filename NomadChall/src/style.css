@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 body {
-  /* color: rgba(245, 245, 245, 0.616); */
   padding:0px;
   margin: 0px;
 }
-
+h1,h2,h3,h4,h5,h6{
+  color: #444;
+  margin:5px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
 header{
   background-color: #008489;
   height: 66px;
@@ -47,7 +53,6 @@ header ul li:hover ul{
 }
 header ul li ul li{
   width: 100%;
-  /* text-align: center; */
 }
 header ul li ul li a{
   padding : 10px;
@@ -68,21 +73,22 @@ header ul li a{
 }
 header ul li a:hover{
   background-color: #023b3d;
-  transition: 0.5s;
+  transition: 0.1s;
 }
-
 header .menu-toggle{
   display: none;
+}
+.page-wrapper a:hover{
+  color: #006669;
 }
 
 /* Post Slider */
 .post-slider{
   position:relative;
-  border: 1px red solid;
 }
 .post-slider .slider-title{
   text-align: center;
-  margin: 30px quto;
+  margin: 30px;
 }
 .post-slider .next{
   position: absolute;
@@ -102,24 +108,34 @@ header .menu-toggle{
 }
 .post-slider .post-wrapper{
   width:90%;
-  height: 350px;
+  height: 400px;
   margin: 0px auto;
-  border: 1px red dashed;
   overflow: hidden;
   padding:10px 0px 10px 0px;
 }
 .post-slider .post-wrapper .post{
-  width: 30%;
-  height: 350px;
+  width: 90%;
+  height: 400px;
   display: inline-block;
-  background-color: #2be2e9;
+  background-color: white;
   margin:0px 10px;
+  border-radius: 5px;
 }
-
+.post-slider .post-wrapper .post .post-info{
+  height: 130px;
+  padding: 0px 5px;
+  border: 1px solid gray;
+}
 .post-slider .post-wrapper .post .slider-image{
   width: 100%;
   height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
+
+
+
+
 
 /* Media Query */
 @media only screen and (max-width:1000px){
@@ -169,6 +185,7 @@ header .menu-toggle{
     margin-left: 0.5em;
   }
 }
+
 
 
 
