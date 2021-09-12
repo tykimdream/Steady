@@ -5,8 +5,8 @@ $(document).ready(function(){
     });
 
     $('.post-wrapper').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         autoplay: true,
         autoplaySpeed: 2000,
         nextArrow: $('.next'),
@@ -22,14 +22,14 @@ $(document).ready(function(){
               }
             },
             {
-              breakpoint: 600,
+              breakpoint: 900,
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2
               }
             },
             {
-              breakpoint: 480,
+              breakpoint: 600,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
