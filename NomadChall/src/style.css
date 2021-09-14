@@ -18,6 +18,17 @@ a{
   display: block;
   clear: both;
 }
+.btn{
+  padding: .5rem 1rem;
+  background-color: #006669;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.btn:hover{
+  color: white !important;
+  background-color: #005250;
+}
 header{
   background-color: #008489;
   height: 66px;
@@ -145,12 +156,39 @@ header .menu-toggle{
 .content{
   width: 90%;
   margin:30px auto 30px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .content .main-content{
   width: 70%;
   float: left;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
+}
+.content .main-content .post{
+  width: 95%;
+  height: 270px;
+  margin: 10px auto;
+  border-radius: 5px;
+  background-color: white;
+  position: relative;
+}
+.content .main-content .post .read-more{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.content .main-content .post .post-image{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+.content .main-content .post .post-preview{
+  width: 60%;
+  float: right;
+  padding:10px;
+}
+.content .main-content .recent-post-title{
+  margin:2px;
 }
 .content .sidebar{
   width: 30%;

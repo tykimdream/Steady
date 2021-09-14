@@ -4,8 +4,8 @@ https://tykimdream.github.io/Steady/
 
 업데이트 내역
 
-Version 1.0 2021.9.14
-<bold>- Header, Slider</bold>    
+Version 1.0 2021.9.14   - Header, Slider    
+Version 1.1 2021.9.
 
 업데이트 예정
 - 로그인, Theme, Post, 사진추가
