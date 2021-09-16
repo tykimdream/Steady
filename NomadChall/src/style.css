@@ -254,6 +254,16 @@ header .menu-toggle{
   display:flex;
   height: 370px;
 }
+.footer .footer-content h1,h2{
+  color: white;
+}
+.footer .footer-content .about h1 span{
+  color: #2be2e9;
+}
+.footer .footer-content .about .contact span{
+  
+}
+
 .footer .footer-content .footer-section{
   flex:1; /* 수평적으로 같은 영역을 갖는다. */
   padding:25px;
